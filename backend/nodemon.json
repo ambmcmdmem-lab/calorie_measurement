@@ -1,0 +1,5 @@
+{
+  "watch": ["dist/index.js"],
+  "ext": "js",
+  "exec": "npx @google-cloud/functions-framework --target=fetchReasonsFor0Calories --source=dist"
+}
